@@ -1,0 +1,116 @@
+/* #1CD1B0 descuento  
+   #00669F heroes
+   #E5E5E5 background main
+   #F3F3F3 background caja p
+    fuente roboto 400
+*/ 
+html{
+    font-family: Roboto, sans-serif;
+}
+.descuento{
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+
+}
+
+.descuento p{
+    font-size: 15px;
+}
+
+header{
+    background-color: #00699F;
+    padding: 10px;
+    padding-left: 25px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 100px 7px #ffffff;
+}
+
+header p{
+    font-size: 40px;
+    
+}
+
+main{
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 0 0 200px;
+}
+
+.container{
+    border: null;
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 529px;
+    border-radius: 20% 20% 0 0;
+    border-color: rgba(111,111,111,0.5);
+    background-color: #e5e5e5;
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.25);
+    margin: 200px 20px 200px 20px;
+    
+
+}
+.background{
+    display: inline-block;
+}
+
+.avatar{
+    display: inline-block;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgba(111,111,111,0.2);
+    z-index: 1;
+    position: relative;
+    width: 120px;
+    height: 118px;
+    left: 80px;
+    bottom: 80px;
+    margin-bottom: 0;
+}
+
+.content{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#nombre{
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+    top: -90px;
+    left: 80px;
+}
+
+.parrafo{
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+}
+
+button{
+    background-color: #00699F;
+    color: #F3F3F3;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    left: 110px;
+}
+
+
+footer{
+    background-color: #00699F;
+    width: 100%;
+    height: 51px;
+    color: #F3F3F3;
+    padding: 5px;
+    padding-left: 20px;
+
+}
